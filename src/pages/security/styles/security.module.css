@@ -53,7 +53,55 @@
     max-width: 70%;
     font-weight: normal;
 }
-
+@media only screen and (max-width: 998px){
+    .compliancesection{
+        padding: 20px;
+    }
+    .compliancewrapper{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+    .complianceheading{
+        font-size: 35px;
+        font-weight: bold;
+        margin: 0 auto 30px auto;
+        max-width: 50%;
+        text-align: center;
+        /* color: #333; */
+    }
+    .compliancetext{
+        font-size: 16px;
+        /* color: #333; */
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .compliancecard{
+        padding: 20px 0 30px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 25%;
+        height: 250px;
+        box-shadow: 1px 1px 1px 0 #ccc;
+    }
+    
+    .compliancelogo{
+        width: 75px;
+    }
+    .titletext{
+        font-size: 16px;
+        margin: 20px 0;
+        font-weight: bold;
+    }
+    .descriptiontext{
+        font-size: 14px;
+        max-width: 70%;
+        font-weight: normal;
+    }
+}
 @media only screen and (max-width: 768px) {
     .compliancewrapper{
         flex-direction: column;
@@ -68,7 +116,7 @@
         text-align: center;
     }
     .compliancetext{
-        font-size: 14px;
+        font-size: 16px;
     }
     .compliancecard{
         align-items: center;
@@ -78,7 +126,7 @@
         box-shadow: none;
     }
     .compliancelogo{
-        width: 65px;
+        width: 70px;
     }
     .titletext{
         font-size: 14px;
@@ -104,6 +152,7 @@
     }
     .compliancetext{
         font-size: 14px;
+        margin-bottom: 10px;
     }
     .compliancecard{
         align-items: center;
@@ -176,6 +225,7 @@
     }
     .compliancetext{
         font-size: 14px;
+        margin-bottom: 10px;
     }
     .compliancecard{
         align-items: center;
